@@ -46,6 +46,42 @@ body {
 
 }
 
-.navbar-brand spanP {
+.navbar-brand span p {
     vertical-align: middle;
+}
+
+/* Right side of the button list */
+#nav-list {
+    margin-top: 15px;
+}
+
+#nav-list a {
+    color: maroon;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    color: rgb(77, 0, 0);
+    background-color: rgb(241, 237, 237);
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+#phone {
+    margin-top: 5px;
+}
+
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div {
+    text-align: right;
+    color: rgb(2, 105, 2);
+    padding-right: 15px;
+    font-weight: bold;
+    font-size: 1em;
 }
